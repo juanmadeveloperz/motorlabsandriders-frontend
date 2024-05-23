@@ -25,7 +25,7 @@ const PrivateGuard = () => {
   );
 
   if (routeMatch && routeMatch.admin && user.role !== "admin") {
-    return <Navigate to={constants.REDIRECT_PATH} />;
+    return <Navigate to={constants.REDIRECT_PATH_NO_ADMIN} />;
   }
 
   return <Outlet />;

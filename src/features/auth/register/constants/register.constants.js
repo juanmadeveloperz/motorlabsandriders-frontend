@@ -2,7 +2,7 @@ const constants = {
   FIELD_NAME_PROPS: {
     label: "Nombre",
     name: "name",
-    placeholder: "John Doe",
+    placeholder: "Moter@rider.com",
     type: "text",
   },
   FIELD_EMAIL_PROPS: {

@@ -21,7 +21,7 @@ export const AddRecord = ({ handleCreate }) => (
         </Button>
       </TooltipTrigger>
       <TooltipContent>
-        <p>Añadir registro</p>
+        <p>Añadir categoría</p>
       </TooltipContent>
     </Tooltip>
   </TooltipProvider>
