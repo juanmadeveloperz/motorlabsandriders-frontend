@@ -1,4 +1,4 @@
-import foroImage from '../../../assets/images/banner.jpg';
+import foroImage from '../../../assets/images/banner.png';
 
 const LandingPage = () => {
   return (
