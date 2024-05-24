@@ -20,7 +20,7 @@ const submitHandler = async ({
     });
     form.reset();
     setUser(data);
-    navigate("/reserva");
+    navigate("/foro");
   } catch (error) {
     if (error.response.data.errors) {
       setFormErrors(form, error);

@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 // Constants
-import beertionaryAdminConstants from "../constants/users.constants";
+import AdminConstants from "../constants/users.constants";
 // Handlers
 import UsersHandlers from "../handlers/users.handlers";
 // Schemas
@@ -20,7 +20,7 @@ const UsersHook = () => {
 
   const form = useForm({
     resolver: zodResolver(UserSchema),
-    defaultValues: beertionaryAdminConstants.DEFAULT_FORM_VALUES,
+    defaultValues: AdminConstants.DEFAULT_FORM_VALUES,
   });
 
   const {

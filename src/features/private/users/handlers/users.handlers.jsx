@@ -2,7 +2,7 @@
 import axios from "@/core/config/axios";
 import { toast } from "sonner";
 // Constants
-import beertionaryAdminConstants from "../constants/users.constants";
+import AdminConstants from "../constants/users.constants";
 import constants from "./constants/users.handlers.constants";
 // Libs
 import { setFormErrors } from "@/core/lib/utils";
@@ -48,7 +48,7 @@ const resetFormHandler = ({ form, openAlert, openDialog, setSelectedRow }) => {
     return;
   }
   setSelectedRow(null);
-  form.reset(beertionaryAdminConstants.DEFAULT_FORM_VALUES);
+  form.reset(AdminConstants.DEFAULT_FORM_VALUES);
 };
 
 const submitHandler = async ({
