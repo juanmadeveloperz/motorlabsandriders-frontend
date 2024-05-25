@@ -10,6 +10,8 @@ const constants = {
     name: "password",
     placeholder: "******",
   },
+  FIELD_PASSWORD_TYPE_VISIBLE: "text",
+  FIELD_PASSWORD_TYPE_HIDDEN: "password", 
   BUTTON_SUBMIT_PROPS: {
     fullWidth: true,
     label: "Login",
