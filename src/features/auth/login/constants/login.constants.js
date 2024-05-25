@@ -10,12 +10,6 @@ const constants = {
     name: "password",
     placeholder: "******",
   },
-  FIELD_PASSWORD_TYPE_VISIBLE: "text",
-  FIELD_PASSWORD_TYPE_HIDDEN: "password",
-  BUTTON_LINK_FORGOT_PASSWORD_PROPS: {
-    href: "/reset",
-    label: "Olvidaste tu contraseña?",
-  },
   BUTTON_SUBMIT_PROPS: {
     fullWidth: true,
     label: "Login",
