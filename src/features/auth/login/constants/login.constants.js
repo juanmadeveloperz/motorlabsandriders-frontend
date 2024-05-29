@@ -6,6 +6,7 @@ const constants = {
     type: "email",
   },
   FIELD_PASSWORD_PROPS: {
+    id: "password",
     label: "Password",
     name: "password",
     placeholder: "******",

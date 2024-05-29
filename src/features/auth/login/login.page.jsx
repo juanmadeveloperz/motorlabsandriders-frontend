@@ -60,12 +60,13 @@ const LoginPage = () => {
               name={constants.FIELD_PASSWORD_PROPS.name}
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>{constants.FIELD_PASSWORD_PROPS.label}</FormLabel>
+                  <FormLabel for={constants.FIELD_PASSWORD_PROPS.id}>{constants.FIELD_PASSWORD_PROPS.label}</FormLabel>
                   <FormControl>
                     <div className="relative">
                       <Input
                         {...field}
                         disabled={loading}
+                        id={constants.FIELD_PASSWORD_PROPS.id}
                         placeholder={constants.FIELD_PASSWORD_PROPS.placeholder}
                         type={passwordType}
                         className="pr-12"

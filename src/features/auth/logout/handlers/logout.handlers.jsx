@@ -3,7 +3,7 @@ import axios from "@/core/config/axios";
 
 const logoutHandler = async ({ navigate }) => {
   try {
-    await axios("/auth/logout", {
+    await axios.post("/auth/logout", {
       withCredentials: true,
     });
     navigate("/");
